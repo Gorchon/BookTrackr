@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Navbar } from "../src/components/Navbar";
+import Navbar from "../src/components/Navbar";
 import Home from "./pages/Home";
-import Search from "@/pages/Search";
-import Dashboard from "@/pages/Dashboard";
-import Profile from "@/pages/Profile";
+import Search from "./pages/Search";
+import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
 
 export default function App() {
   return (
