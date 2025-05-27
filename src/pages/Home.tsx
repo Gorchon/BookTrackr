@@ -6,7 +6,6 @@ import BookCard from "../components/BookCard";
 export default function Home() {
   const [books, setBooks] = useState<Book[]>([]);
 
-  // Grab a default list (feel free to change the query)
   useEffect(() => {
     (async () => {
       const trending = await searchBooks("best seller fiction");

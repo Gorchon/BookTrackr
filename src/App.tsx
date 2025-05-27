@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
+import BookDetails from "./pages/BookDetails";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/book/:id" element={<BookDetails />} />
       </Routes>
     </BrowserRouter>
   );
